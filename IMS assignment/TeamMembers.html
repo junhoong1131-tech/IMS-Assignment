@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Members</title>
+  <link rel="stylesheet" href="team.css">
+</head>
+<body>
+
+<h1 class="page-title">Team Members</h1>
+
+<div class="team-container">
+  <div class="member">
+    <div class="photo"></div>
+    <p>Tan Jun Hong</p>
+  </div>
+
+  <div class="member">
+    <div class="photo"></div>
+    <p>Chai Ming Hao</p>
+  </div>
+
+  <div class="member">
+    <div class="photo"></div>
+    <p>Foong Kok Hoe</p>
+  </div>
+</div>
+
+<!-- Back -->
+<a href="about.html" class="back-btn">Back</a>
+
+<style>body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #9c9c9c;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 42px;
+  color: black;
+  margin: 40px 0;
+}
+
+/* 成员排列 */
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.member {
+  width: 200px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  background: #e0e0e0;
+}
+
+.member p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* 右下角 Back */
+.back-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  padding: 10px 30px;
+  background: #6f6f6f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+</style>
+</body>
+</html>

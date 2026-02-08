@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Option</title>
+  <link rel="stylesheet" href="course.css">
+</head>
+<body>
+
+  <!-- ===== 导航栏 ===== -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="Lingua IMS.png" alt="Lingua Logo">
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="course.html" class="active">Course</a>
+      <a href="About.html">About</a>
+      <a href="mylearning.html">My Learning</a>
+    </div>
+
+    <a href="Setting.html" class="Setting">Setting</a>
+  </div>
+
+  <!-- ===== 主内容 ===== -->
+  <div class="course-container">
+
+    <h1>Course Option</h1>
+
+    <!-- Language 1 -->
+    <div class="course-row">
+      <span class="language">Language 1</span>
+      <span class="level">[Difficulty Level] ▼</span>
+    </div>
+
+    <!-- Language 2 -->
+    <div class="course-row">
+      <span class="language">Language 2</span>
+      <span class="level">[Difficulty Level] ▼</span>
+    </div>
+
+    <!-- Language 3 -->
+    <div class="course-row">
+      <span class="language">Language 3</span>
+      <span class="level">[Difficulty Level] ▼</span>
+    </div>
+
+    <!-- 底部按钮 -->
+    <div class="course-buttons">
+      <a href="search.html" class="search-btn">Search</a>
+      <button class="btn next">Next</button>
+      <button class="btn start">Start</button>
+    </div>
+
+  </div>
+<style>/* ===== 全局 ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #9c9c9c;
+}
+
+/* ===== 导航栏 ===== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links .active {
+  background: #9c9c9c;
+  padding: 10px 18px;
+}
+
+.Setting {
+  background: #bdbdbd;
+  padding: 10px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ===== Course 内容 ===== */
+.course-container {
+  width: 75%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.course-container h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* 每一行语言 */
+.course-row {
+  background: #e0e0e0;
+  padding: 25px 40px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.level {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===== 底部按钮 ===== */
+.course-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.btn {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 12px 30px;
+  background: #e0e0e0;
+  color: black;
+  text-decoration: none; /* 很重要，去掉 a 的下划线 */
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.next,
+.start {
+  background: #e0e0e0;
+}
+</style>
+</body>
+</html>

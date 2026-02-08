@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+
+<!-- ===== 导航栏 ===== -->
+<div class="navbar">
+    <div class="logo">
+        <img src="Lingua IMS.png" alt="Lingua Logo">
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="course.html">Course</a>
+        <a href="about.html">About</a>
+        <a href="mylearning.html">My Learning</a>
+    </div>
+
+    <a href="setting.html" class="setting">Setting</a>
+</div>
+
+<!-- ===== 内容 ===== -->
+<div class="container">
+    <div class="box">[Practice]</div>
+    <div class="box">[Question]</div>
+    <div class="box">[Answer Options]</div>
+
+    <a href="mylearning.html" class="back-btn">Back</a>
+</div>
+
+<style>body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #bfbfbf;
+}
+
+/* ===== 导航栏 ===== */
+.navbar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 30px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.setting {
+    background: #c0c0c0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* ===== 页面内容 ===== */
+.container {
+    margin: 40px auto;
+    width: 80%;
+    position: relative;
+}
+
+.box {
+    background: #e0e0e0;
+    padding: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.back-btn {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    background: #e0e0e0;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+</style>
+</body>
+</html>

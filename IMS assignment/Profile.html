@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<div class="navbar">
+  <div class="logo">
+    <img src="Lingua IMS.png" alt="Lingua Logo">
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="course.html">Course</a>
+    <a href="about.html">About</a>
+    <a href="mylearning.html">My Learning</a>
+  </div>
+
+  <a href="Setting.html" class="setting-btn">Setting</a>
+</div>
+
+<h1 class="page-title">User Profile</h1>
+
+<!-- ===== Profile Content ===== -->
+<div class="profile-container">
+
+  <div class="left">
+    <div class="profile-pic">Profile Picture</div>
+  </div>
+
+  <div class="right">
+    <div class="info-box">Name</div>
+    <div class="info-box">Language Preferences</div>
+    <div class="info-box">Achievements</div>
+  </div>
+
+</div>
+
+<div class="actions">
+  <a href="#" class="action-btn">Edit Profile</a>
+  <a href="create.html" class="action-btn">Create Profile</a>
+</div>
+
+<style>body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #9c9c9c;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.setting-btn {
+  background: #bdbdbd;
+  padding: 10px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ===== Title ===== */
+.page-title {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 36px;
+}
+
+/* ===== Profile Layout ===== */
+.profile-container {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+/* Left */
+.profile-pic {
+  width: 260px;
+  height: 300px;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Right */
+.right {
+  flex: 1;
+}
+
+.info-box {
+  background: #e0e0e0;
+  padding: 20px;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===== Buttons ===== */
+.actions {
+  width: 900px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+}
+
+.action-btn {
+  background: #e0e0e0;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+</style>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lingua - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+  <!-- ===== 导航栏 ===== -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="Lingua IMS.png" alt="Lingua Logo">
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="course.html">Course</a>
+      <a href="about.html">About</a>
+      <a href="mylearning.html">My Learning</a>
+    </div>
+
+    <a href="setting.html" class="setting-btn">Setting</a>
+  </div>
+
+  <!-- ===== Home 主内容 ===== -->
+  <div class="home">
+    <h1>WELCOME TO LINGUA</h1>
+
+    <div class="home-buttons">
+      <a href="#" class="btn">Get Started</a>
+      <a href="login.html" class="btn">Login</a>
+    </div>
+
+    <h2>
+      Learn languages<br>
+      Connect the world
+    </h2>
+
+    <p>
+      Practice speaking learning and writing with real world content
+    </p>
+  </div>
+
+  <style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== 整体背景 ===== */
+body {
+  background: #9c9c9c;
+}
+
+/* ===== 导航栏 ===== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #ffffff;
+}
+
+/* Logo 左边 */
+.logo img {
+  width: 90px;
+}
+
+/* 中间导航 */
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* 当前页面 */
+.nav-links .active {
+  background: #bdbdbd;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+/* Setting 右边 */
+.setting-btn {
+  text-decoration: none;
+  background: #bdbdbd;
+  color: black;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* ===== Home 主画面 ===== */
+.home {
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+}
+
+/* 大标题 */
+.home h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Get Started / Login */
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.home-buttons .btn {
+  text-decoration: none;
+  background: #dedede;
+  color: black;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Learn languages */
+.home h2 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+/* 描述文字 */
+.home p {
+  font-size: 20px;
+  font-style: italic;
+}
+</style>
+</body>
+</html>

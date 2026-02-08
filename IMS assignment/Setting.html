@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Setting</title>
+  <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<div class="navbar">
+  <div class="logo">
+    <img src="Lingua IMS.png" alt="Lingua Logo">
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="course.html">Course</a>
+    <a href="about.html">About</a>
+    <a href="mylearning.html">My Learning</a>
+  </div>
+
+  <div class="setting-btn active">Setting</div>
+</div>
+
+<!-- ===== Setting Content ===== -->
+<div class="setting-container">
+
+  <div class="section">
+    <h2>Account Setting:</h2>
+    <a href="Profile.html" class="Profile-btn">User Profile</a>
+    <br>
+    <a href="password.html" class="password-btn">Change Password</a>
+    <p>Change / Update Email</p>
+  </div>
+
+  <div class="section">
+    <h2>Notification:</h2>
+    <p>Course Reminder : On / Off</p>
+    <p>Email Notification : On / Off</p>
+  </div>
+
+  <div class="section">
+    <a href="help.html" class="help-link">Help / F&amp;Q</a>
+  </div>
+
+</div>
+
+<!-- ===== Log Out ===== -->
+<a href="logout.html" class="logout-btn">Log Out</a>
+
+
+<style>
+/* ===== 全局 ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #9c9c9c;
+  color: white;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.setting-btn {
+  background: #bdbdbd;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+/* ===== 内容 ===== */
+.setting-container {
+  width: 900px;
+  margin: 60px auto;
+}
+
+.password-btn {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+/* Help/F&Q */
+.help-link {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+/* ===== Log Out ===== */
+.logout-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  background: white;
+  color: black;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Profile-btn {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  
+}
+</style>
+</body>
+</html>

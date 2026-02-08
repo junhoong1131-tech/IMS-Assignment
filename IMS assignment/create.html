@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Profile</title>
+  <link rel="stylesheet" href="create.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<div class="navbar">
+  <div class="logo">
+    <img src="Lingua IMS.png" alt="Lingua Logo">
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="course.html">Course</a>
+    <a href="about.html">About</a>
+    <a href="mylearning.html">My Learning</a>
+  </div>
+
+  <a href="Setting.html" class="setting-btn">Setting</a>
+</div>
+
+<!-- ===== 内容 ===== -->
+<div class="create-container">
+  <p class="create-text">
+    Create your profile save your learning progress
+  </p>
+
+  <a href="#" class="create-btn">Create A File</a>
+
+  <!-- 回去 User Profile -->
+  <a href="Profile.html" class="later-btn">More Later</a>
+</div>
+
+<style>body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #9c9c9c;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.setting-btn {
+  background: #bdbdbd;
+  padding: 10px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ===== 主体 ===== */
+.create-container {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* 文字 */
+.create-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* 按钮通用 */
+.create-btn,
+.later-btn {
+  display: block;
+  width: 420px;
+  text-align: center;
+  padding: 18px 0;
+  background: #ffffff;
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+/* More Later 字稍微斜体一点 */
+.later-btn {
+  font-style: italic;
+}
+</style>
+</body>
+</html>

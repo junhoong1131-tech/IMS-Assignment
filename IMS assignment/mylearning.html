@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navbar">
+  <div class="logo">
+    <img src="Lingua IMS.png" alt="Lingua Logo">
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="course.html">Course</a>
+    <a href="about.html">About</a>
+    <a href="mylearning.html">My Learning</a>
+  </div>
+
+  <a href="setting.html" class="setting-btn">Setting</a>
+</div>
+
+    <h1 class="page-title">My Learning</h1>
+
+<div class="learning-list">
+  <a href="practice.html">Practice</a>
+<a href="favourite.html">Favourite</a>
+<a href="history.html">History</a>
+<a href="current.html">Current Course</a>
+
+</div>
+
+
+
+<style>/* ===== 全局 ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #9c9c9c;   /* 主背景深灰（和前几页一样） */
+  color: black;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;   /* 白色导航栏 */
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+/* Setting 按钮 */
+.setting-btn {
+  background: #bdbdbd;
+  padding: 10px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ===== 页面标题 ===== */
+.page-title {
+  margin: 40px 0 20px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+/* ===== My Learning 列表 ===== */
+.learning-list {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* 每一个选项 */
+.learning-list a {
+  display: block;
+  background: #e0e0e0;   /* 浅灰色卡片 */
+  padding: 22px 40px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+</style>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>History</title>
+    <link rel="stylesheet" href="history.css">
+</head>
+<body>
+
+<!-- ===== 导航栏 ===== -->
+<div class="navbar">
+    <div class="logo">
+        <img src="Lingua IMS.png" alt="Lingua Logo">
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="course.html">Course</a>
+        <a href="about.html">About</a>
+        <a href="mylearning.html">My Learning</a>
+    </div>
+
+    <a href="setting.html" class="setting">Setting</a>
+</div>
+
+<!-- ===== 内容 ===== -->
+<div class="container">
+    <h1>History</h1>
+
+    <div class="history-item"></div>
+    <div class="history-item"></div>
+    <div class="history-item"></div>
+</div>
+
+
+
+<!-- 右下角 Back -->
+<a href="mylearning.html" class="back bottom-right">Back</a>
+
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #bdbdbd;
+}
+
+/* ===== 导航栏 ===== */
+.navbar {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.setting {
+    background: #b0b0b0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* ===== 内容 ===== */
+.container {
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.history-item {
+    background: #e0e0e0;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+/* ===== Back 按钮 ===== */
+.back {
+    position: fixed;
+    background: #dcdcdc;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+</style>
+</body>
+</html>

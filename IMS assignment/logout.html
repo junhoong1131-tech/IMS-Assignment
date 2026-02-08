@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log Out</title>
+  <link rel="stylesheet" href="logout.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<div class="navbar">
+  <div class="logo">
+    <img src="Lingua IMS.png" alt="Lingua Logo">
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="course.html">Course</a>
+    <a href="about.html">About</a>
+    <a href="mylearning.html">My Learning</a>
+  </div>
+
+  <div class="setting-btn">Setting</div>
+</div>
+
+<!-- ===== Confirm Box ===== -->
+<div class="logout-box">
+  <p>Are you sure you want to log out?</p>
+
+  <div class="logout-actions">
+    <a href="index.html" class="btn">Yes</a>
+    
+    <a href="Setting.html" class="No-btn">No</a>
+  </div>
+</div>
+
+<style>body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #9c9c9c;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.setting-btn {
+  background: #bdbdbd;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Logout box */
+.logout-box {
+  width: 700px;
+  margin: 150px auto;
+  background: #e0e0e0;
+  padding: 40px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.logout-box p {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.logout-actions {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.btn {
+  background: #dcdcdc;
+  padding: 14px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.No-btn {
+  background: #dcdcdc;
+  padding: 14px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+</style>
+</body>
+</html>
